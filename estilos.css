@@ -37,3 +37,37 @@ main {
     background: url(imagens/frame-iphone.png) no-repeat;
 
 }
+
+#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+
+#Redes-sociais {
+    position: absolute;
+    top: 5%;
+    left: 10px;
+
+}
+
+#Redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px  4px 4px black;
+    box-sizing: border-box;
+    display: block;
+    
+    
+
+}
+
+#Redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 2s;
+}
